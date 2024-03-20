@@ -2,9 +2,11 @@
   font-family: "Josefin Sans";
   src: url("../public/Fonts/Josefin_Sans/static/JosefinSans-Light.ttf");
   font-weight: 300;
+  font-display: swap;
 }
 @font-face {
   font-family: "Alata";
   src: url("../public/Fonts/Alata/Alata-Regular.ttf");
   font-weight: 400;
+  font-display: swap;
 }
