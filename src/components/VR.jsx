@@ -9,7 +9,7 @@ const VR = () => {
             alt="interactive"
           />
           <img
-            className="hidden md:block md:w-[70%]"
+            className="hidden md:block w-[70%]"
             src="./images/desktop/image-interactive.jpg"
             alt="interactive"
           />
