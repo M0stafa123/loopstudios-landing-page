@@ -1,13 +1,32 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import "./Fonts.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/*  global */
+.gradient {
+  @apply relative after:absolute after:left-0 after:top-0 after:w-full after:h-full after:bg-linear md:after:bg-linearDesktop;
 }
+/*  */
+/* nav */
+nav ul {
+  @apply absolute bottom-0 left-0 z-10 w-full h-screen p-12 pt-48 text-white transition-all bg-black md:w-fit md:p-0 md:relative md:bg-transparent text-start md:h-auto md:flex md:gap-5;
+}
+/*  */
+/* our creations */
+.creations section > div {
+  @apply text-white h-[120px] md:h-[350px]  md:my-0  my-4 p-5 flex bg-center bg-cover;
+}
+.creations section > div > h1 {
+  @apply z-10 mt-auto text-[1.4rem] uppercase;
+}
+.btn {
+  @apply px-5 py-2 hover:bg-black hover:text-white  tracking-widest block border border-black font-Alata w-[150px];
+}
+/*  */
+
+/* footer */
+.App ul li {
+  @apply relative after:bg-white after:transition-all after:absolute after:left-1/2 after:-translate-x-1/2 after:-bottom-1/3 cursor-pointer after:h-0.5 after:w-0 hover:after:w-[24px];
+}
+/*  */
