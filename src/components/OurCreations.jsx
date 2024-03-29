@@ -3,13 +3,13 @@ const OurCreations = () => {
     <article className="p-6 my-10 creations font-JosefinSans">
       <div className="items-center md:flex md:justify-between md:my-5 md:w-[90%] mx-auto">
         <h1 className="mb-5 text-4xl text-center md:m-0">OUR CREATIONS</h1>
-        <button className="!hidden btn md:block">SEE ALL</button>
+        <button className="hidden btn md:block">SEE ALL</button>
       </div>
       <section className="grid md:grid-cols-4 gap-5 mx-auto md:w-[90%]">
         <div className="bg-earthMobile md:bg-earthDesktop gradient">
           <h1 className="w-[130px] ">DEEP EARTH</h1>
         </div>
-        <div className="bg-arcadeMobile md:bg-arcadeDesktop gradient">
+        <div className="bg-arcadeMobile  md:bg-arcadeDesktop gradient">
           <h1 className="w-[130px] ">NIGHT ARCADE</h1>
         </div>
         <div className="bg-soccerMobile md:bg-soccerDesktop gradient">

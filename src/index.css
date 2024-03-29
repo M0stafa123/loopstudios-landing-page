@@ -15,13 +15,16 @@ nav ul {
 /*  */
 /* our creations */
 .creations section > div {
-  @apply text-white h-[120px] md:h-[350px]  md:my-0  my-4 p-5 flex bg-center bg-cover;
+  @apply text-white h-[120px] md:h-[350px]  md:my-0  my-4 p-5 flex bg-center bg-cover hover:after:bg-none hover:after:bg-[#ffffffbd];
 }
 .creations section > div > h1 {
   @apply z-10 mt-auto text-[1.4rem] uppercase;
 }
+.creations section > div:hover > h1 {
+  @apply text-black;
+}
 .btn {
-  @apply px-5 py-2 hover:bg-black hover:text-white  tracking-widest block border border-black font-Alata w-[150px];
+  @apply px-5 py-2 hover:bg-black hover:text-white  tracking-widest  border border-black font-Alata w-[150px];
 }
 /*  */
 
